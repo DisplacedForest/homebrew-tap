@@ -13,7 +13,7 @@ cask "llm-usage" do
     This build is not signed or notarized. macOS will block the first launch.
     Either right-click the app and choose Open, or run:
 
-      xattr -dr com.apple.quarantine "/Applications/LLM Usage.app"
+      xattr -d com.apple.quarantine "/Applications/LLM Usage.app"
 
     Claude Code usage additionally needs the bundled status line; open the app
     and click Set Up in the Claude Code section.
